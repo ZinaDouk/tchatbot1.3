@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title> WellBot </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF8">
+            <link rel="stylesheet" href="./assets/style.css">
+        </head>
+        <body>
+            <section>
+            <center>
+                <div class="entete">
+                    <a href="./index.html" id="logo-link"><img src="./assets/img/logo.png" alt="Logo" id="logo"></a>
+                </div>
+                <div>
+                <h1 style="color:rgb(4, 4, 89);"><a href="#">Ask Me </a><a href="./index.html"><img src="assets/img/icon.jpg" width="20" height="20"></a></h1>
+                <h2 style="color:white;">“The one who knows all the answers has not been asked all the questions.” Confucius</h2>
+                </div>
+            </center>
+            <form action="/submit" method="post">    
+                <label for="question">Frequently asked questions</label>
+                <select id="question" name="question">
+                    <option value="" selected>Ask your question ...</option>
+                    <option value="question1">What is Full Stack Development ?</option>
+                    <option value="question2">What is HTML ?</option>
+                    <option value="question3">What is a server and what is a client ?</option>
+                    <option value="question4">What is a tchat bot useful for ?</option>
+                    <option value="question5">Is this the best way to design a tchat Bot ?</option>
+                </select>
+                <label for="reponse">Answer</label> <br>
+                <textarea id="reponse" name="reponse" rows="10" cols="50" disabled>The answer goes here ...</textarea>
+                <!-- ici je compte ecrire un javascript qui m'affiche les réponses -->
+            </form>
+            </center>
+            </section>
+        </body>
+    </html>
