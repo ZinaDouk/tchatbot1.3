@@ -1,0 +1,92 @@
+body
+{
+    background-image: url("./img/background.jpg");
+    background-color: lightblue;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    background-attachment: fixed;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+ul{
+    margin-left: 35px;
+}
+li{
+    list-style-type: none;
+    font-size: 1em;
+}
+a:link {
+    color: rgb(101, 197, 101);
+    background-color: transparent;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+}
+.entete {
+        display: flex;
+        /*align-items: center;*/
+        padding: 1px;
+        /*background-color: #7a06e7;*/ /* You can change this to your preferred background color */
+        width:auto; /*: 50%;*/
+        position: fixed;  /* Makes the navbar stick to the top */
+        top: 0;
+        left: 0;
+}
+navbar {
+display: block;
+overflow: hidden;
+background-color: #333;
+}
+navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color:rgb(4, 4, 128);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #7278d4;
+}
+header {
+    display: flex;
+    padding: 1px;
+    background-color: rgb(248, 248, 248); /* You can change this to your preferred background color */
+    width: 100%;
+    
+}
+
+#logo {
+    height: 100px; /* Adjust this value to resize your logo */
+}
+
